@@ -28,6 +28,8 @@
   color: #61dafb;
 }
 
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +37,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* ///// my self add css */
+.btn{
+  /* class="border-2 relative inline-flex items-center justify-center p-0.5  mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 "> */
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  padding: 5px;
+  margin-right: 10%;
+  cursor: grab;
+  background-color: #545353;
+  color: white;
+  
+}
+.p-2{
+  background: #000;
+  text-align: end;
+  margin: 2px auto;
+  padding: 2px;
+}
+
+/* .dark-theme {
+  color: white;
+  background-color: rgb(26, 20, 20);
+} */
+body {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.dark-mode {
+  background-color: #1c1b1b;
+  color: #f5f5f5;
+  
 }
