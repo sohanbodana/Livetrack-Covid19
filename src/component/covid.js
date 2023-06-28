@@ -8,7 +8,7 @@ const Covid = () => {
     const getCovidData = async () => {
         try {
             // const res = await fetch('https://data.covid19india.org/data.json');
-            const res = await fetch('https://edata.ndtv.com/cricket/coronavirus/data.json');
+            const res = await fetch('https://cors-anywhere.herokuapp.com/https://edata.ndtv.com/cricket/coronavirus/data.json');
 
             // https://edata.ndtv.com/cricket/coronavirus/data.json
             const actdata = await res.json();
