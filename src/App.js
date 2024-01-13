@@ -1,28 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-import Covid from './component/covid';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from "./component/Home";
+import Covid from "./component/covid";
+import State from "./component/state";
 
-
-function App() {
-  const myFunction = () => {
-    const darkModeToggle = document.getElementById('darkModeToggle');
-    const body = document.body;
-
-    darkModeToggle.addEventListener('click', function() {
-      body.classList.toggle('dark-mode');
-    });
-  };
-  return (
+const App = () => {
   
-      <div className="App">
-        <div class="text-right p-2">
-          <button onClick={myFunction} id='darkModeToggle' className='btn'><span>~ Dark Mode</span>
-          </button>
-        </div>
-        <Covid />
+  return (
+    <Router>
+      <div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Covid />} />
+          <Route path="/state" element={<State />} />
+        </Routes>
       </div>
-   
+    </Router>
   );
-}
+};
 
 export default App;

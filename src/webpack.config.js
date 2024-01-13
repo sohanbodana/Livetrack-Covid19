@@ -1,0 +1,6 @@
+resolve: {
+    fallback: {
+      "zlib": false;
+    }
+  }
+  

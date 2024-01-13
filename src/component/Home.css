@@ -1,0 +1,80 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.App {
+    text-align: center;
+  }
+  body{
+    background-image: url('bg3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* ///// my self add css */
+  .btns{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 5px;
+    margin-right: 10%;
+    cursor: grab;
+    background-color: #545353;
+    color: white;
+  }
+ 
+  .p-2{
+    text-align: end;
+    margin: 2px auto;
+    padding: 2px;
+  }
+  
+
+  
+  .dark-mode {
+    background-color: #1c1b1b;
+    color: white;
+    background-image: url('bg4.avif');
+    
+  }
+
+ 
