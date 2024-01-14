@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.d11a2281.css",
-    "main.js": "/static/js/main.da96d077.js",
-    "static/js/787.b03fea11.chunk.js": "/static/js/787.b03fea11.chunk.js",
-    "static/media/bg3.jpg": "/static/media/bg3.a502643859fed94161da.jpg",
-    "static/media/bg4.avif": "/static/media/bg4.67743f8e841636ebeed9.avif",
-    "index.html": "/index.html",
-    "main.d11a2281.css.map": "/static/css/main.d11a2281.css.map",
-    "main.da96d077.js.map": "/static/js/main.da96d077.js.map",
-    "787.b03fea11.chunk.js.map": "/static/js/787.b03fea11.chunk.js.map"
+    "main.css": "/Livetrack-Covid19/static/css/main.3b9a1be9.css",
+    "main.js": "/Livetrack-Covid19/static/js/main.80bab9d9.js",
+    "static/js/787.b03fea11.chunk.js": "/Livetrack-Covid19/static/js/787.b03fea11.chunk.js",
+    "static/media/bg3.jpg": "/Livetrack-Covid19/static/media/bg3.a502643859fed94161da.jpg",
+    "static/media/bg4.avif": "/Livetrack-Covid19/static/media/bg4.67743f8e841636ebeed9.avif",
+    "index.html": "/Livetrack-Covid19/index.html",
+    "main.3b9a1be9.css.map": "/Livetrack-Covid19/static/css/main.3b9a1be9.css.map",
+    "main.80bab9d9.js.map": "/Livetrack-Covid19/static/js/main.80bab9d9.js.map",
+    "787.b03fea11.chunk.js.map": "/Livetrack-Covid19/static/js/787.b03fea11.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d11a2281.css",
-    "static/js/main.da96d077.js"
+    "static/css/main.3b9a1be9.css",
+    "static/js/main.80bab9d9.js"
   ]
 }
